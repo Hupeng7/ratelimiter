@@ -1,0 +1,776 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="477cdd79-b834-4d18-9f54-0db75fc1fde8" name="Default Changelist" comment="snowalker--添加特殊记账逻辑">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shield-ratelimter.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CHANGELOG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shield-ratelimiter-core/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shield-ratelimiter-core/src/main/java/com/snowalker/shield/ratelimiter/core/annotation/RateLimiter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shield-ratelimiter-core/src/main/java/com/snowalker/shield/ratelimiter/core/handler/RateLimterHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shield-ratelimiter-core/src/main/java/com/snowalker/shield/ratelimiter/core/redis/RedisCacheConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shield-ratelimiter-core/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shield-ratelimiter-core/src/main/resources/rateLimter.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shield-ratelimiter-core/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shield-ratelimiter-core/target/classes/rateLimter.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shield-ratelimiter.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shleld-ratelimter-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shleld-ratelimter-demo/src/main/java/com/snowalker/ratelimiter/demo/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shleld-ratelimter-demo/src/main/java/com/snowalker/ratelimiter/demo/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shleld-ratelimter-demo/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shleld-ratelimter-demo/target/classes/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/shieldratelimiter$MAccBalanceTests_testAlipayQueryBalance.ic" NAME="MAccBalanceTests.testAlipayQueryBalance Coverage Results" MODIFIED="1543370283268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.gaoyang.marketing.maccbasecore.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="shieldratelimiter" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="package-info" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>用户账户信息查询失败</find>
+      <find>queryWebNoticeCrouselBannerList</find>
+      <find>queryWebNoticePopupBoxesList</find>
+      <find>QueryNoticeInfoListDO</find>
+      <find>queryNoticeInfoList</find>
+      <find>insertPrizeInfo</find>
+      <find>queryPrizeInfoList</find>
+      <find>balanceCurTotal</find>
+      <find>queryChargedAccBalanceRecord</find>
+      <find>e.printStackTrace()</find>
+      <find>createNoticeInfo</find>
+      <find>addChargeAccountBalance</find>
+      <find>accCurrBalance</find>
+      <find>updateSpecialChargeAccount</find>
+      <find>冲正</find>
+      <find>needRollbackTradeAmount</find>
+      <find>balanceLast</find>
+      <find>tradeAmountReal</find>
+      <find>ProductTypeInfoModel</find>
+      <find>ProductInfoBizServiceImpl</find>
+      <find>queryAllBalanceRecordList</find>
+      <find>清零</find>
+      <find>version</find>
+      <find>chargeAccountData.getExtMsg()</find>
+      <find>extMsg</find>
+      <find>queryAccountBalanceListData</find>
+      <find>ChargeNotifyLocalModel</find>
+      <find>SpecialChargeLocalModel</find>
+      <find>rulerChargeUtils</find>
+      <find>chargeExtMsg</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>isBlank</replace>
+      <replace>queryNoticeInfoListData</replace>
+      <replace>OutQueryNoticeInfoModel</replace>
+      <replace>CreateNoticeInfoData</replace>
+      <replace>UpdateNoticeInfoData</replace>
+      <replace>OutCreateNoticeInfoModel</replace>
+      <replace>OutUpdateNoticeInfoModel</replace>
+      <replace>CreateNoticeInfoDO</replace>
+      <replace>CreateNoticeInfoDobj</replace>
+      <replace>QueryNoticeInfoListDO</replace>
+      <replace>QueryNoticeInfoDobj</replace>
+      <replace>getNextValueByAscLong</replace>
+      <replace>ChargeNotifyAcmConfig</replace>
+      <replace>SpecialChargeAcmConfig</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>D:\snowalker-workspace\0mkt-workspace\maccbasecore\maccbasecore-service</dir>
+      <dir>D:\snowalker-workspace\0mkt-workspace\mfbizcore</dir>
+      <dir>D:\snowalker-workspace\0mkt-workspace\maccbasecore</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ngyWwP2fQTH2KmKlNBENcsTz3S" />
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Abstraction issuesJava</id>
+          </State>
+          <State>
+            <id>Ali-Check</id>
+          </State>
+          <State>
+            <id>Android</id>
+          </State>
+          <State>
+            <id>Code style issuesJava</id>
+          </State>
+          <State>
+            <id>Compiler issuesJava</id>
+          </State>
+          <State>
+            <id>CorrectnessLintAndroid</id>
+          </State>
+          <State>
+            <id>FinalizationJava</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>Google Web Toolkit</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>IconsUsabilityLintAndroid</id>
+          </State>
+          <State>
+            <id>Inheritance issuesJava</id>
+          </State>
+          <State>
+            <id>Internationalization</id>
+          </State>
+          <State>
+            <id>InternationalizationJava</id>
+          </State>
+          <State>
+            <id>InternationalizationLintAndroid</id>
+          </State>
+          <State>
+            <id>J2ME issuesJava</id>
+          </State>
+          <State>
+            <id>JSP</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Java 5Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java 9Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java interop issuesKotlin</id>
+          </State>
+          <State>
+            <id>Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>JavaBeans issuesJava</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>Kotlin</id>
+          </State>
+          <State>
+            <id>LintAndroid</id>
+          </State>
+          <State>
+            <id>Numeric issuesJava</id>
+          </State>
+          <State>
+            <id>OtherGroovy</id>
+          </State>
+          <State>
+            <id>PerformanceJava</id>
+          </State>
+          <State>
+            <id>PerformanceLintAndroid</id>
+          </State>
+          <State>
+            <id>Probable bugsJava</id>
+          </State>
+          <State>
+            <id>Probable bugsKotlin</id>
+          </State>
+          <State>
+            <id>SecurityJava</id>
+          </State>
+          <State>
+            <id>SecurityLintAndroid</id>
+          </State>
+          <State>
+            <id>Serialization issuesJava</id>
+          </State>
+          <State>
+            <id>UsabilityLintAndroid</id>
+          </State>
+          <State>
+            <id>Verbose or redundant code constructsJava</id>
+          </State>
+          <State>
+            <id>WebSocket</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>JSP</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/snowalker-workspace/0mkt-workspace/mprodbasecore/mprodbasecore-facade/src/main/java/com/gaoyang/marketing/mbasecore/model/request/UpdateNoticeInfoData.java&#10;isEmpty&#9;PSI&#9;JAVA://com.alipay.sofa.common.profile.ArrayUtil#isEmpty" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543988937784" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="D:/project/finance-service/fin-contract" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.gaoyang.marketing.mprodbasecore.common.dal.dobj" />
+      <recent name="com.gaoyang.marketing.maccbasecore.biz.service" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\snowalker-workspace\0mkt-workspace\maccbasecore\maccbasecore-service\doc" />
+      <recent name="D:\snowalker-workspace\0mkt-workspace\customerapiservice" />
+      <recent name="D:\snowalker-workspace\0mkt-workspace\customerapiservice\src\main" />
+      <recent name="D:\snowalker-workspace\0mkt-workspace\mprodbasecore\mprodbasecore-service\src\main\resources\META-INF\mprodbasecore" />
+      <recent name="D:\snowalker-workspace\0mkt-workspace\mprodbasecore\mprodbasecore-service\src\main\resources\com\gaoyang\marketing\mprodbasecore\common\dal\dobj\xml" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.gaoyang.marketing.maccbasecore.facade.model" />
+      <recent name="com.gaoyang.marketing.maccbasecore.facade.enums" />
+      <recent name="com.gaoyang.marketing.maccbasecore.facade.model.request" />
+      <recent name="com.gaoyang.marketing.maccbasecore.facade.model.response" />
+      <recent name="com.gaoyang.marketing.mprodbasecore" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\snowalker-workspace\0mkt-workspace\mprodbasecore\mprodbasecore-service\src\main\resources\com\gaoyang\marketing\mprodbasecore\common\dal\dobj\xml" />
+      <recent name="D:\snowalker-workspace\0mkt-workspace\mprodbasecore\mprodbasecore-service\src\main\resources\com.gaoyang.marketing.mprodbasecore.common.dal.dobj.noticeinfo.xml" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.RateLimterApplication">
+    <configuration name="MAccBaseCoreAppTests.testAccBalanceCheckHandler" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="maccbasecore-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gaoyang.marketing.maccbasecore.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gaoyang.marketing.maccbasecore" />
+      <option name="MAIN_CLASS_NAME" value="com.gaoyang.marketing.maccbasecore.MAccBaseCoreAppTests" />
+      <option name="METHOD_NAME" value="testAccBalanceCheckHandler" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestAccPaymentSuccProtocol.testMsgProtocolFactory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="msg-protocol" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gaoyang.marketing.protocol.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gaoyang.marketing.protocol" />
+      <option name="MAIN_CLASS_NAME" value="com.gaoyang.marketing.protocol.TestAccPaymentSuccProtocol" />
+      <option name="METHOD_NAME" value="testMsgProtocolFactory" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestAccPaymentSuccProtocol.testVoucherExchange" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="msg-protocol" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gaoyang.marketing.protocol.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gaoyang.marketing.protocol" />
+      <option name="MAIN_CLASS_NAME" value="com.gaoyang.marketing.protocol.TestAccPaymentSuccProtocol" />
+      <option name="METHOD_NAME" value="testVoucherExchange" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mfbizcore-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gaoyang.marketing.mfbizcore.App" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mprodbasecore-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gaoyang.marketing.mprodbasecore.App" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App (3)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shield-demo-project-single" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.conf.test.App" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App (4)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="customer-api-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gaoyang.marketing.customer.App" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="maccbasecore-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gaoyang.marketing.maccbasecore.App" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="rctmq-spring-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.snowalker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.snowalker.Application" />
+      <additionalParameters>
+        <param>
+          <option name="enabled" value="true" />
+          <option name="name" value="" />
+          <option name="value" value="" />
+        </param>
+        <param>
+          <option name="enabled" value="true" />
+          <option name="name" value="" />
+          <option name="value" value="" />
+        </param>
+        <param>
+          <option name="enabled" value="true" />
+          <option name="name" value="" />
+          <option name="value" value="" />
+        </param>
+      </additionalParameters>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MopmwebServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mopmweb-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gaoyang.marketing.mopmweb.MopmwebServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RateLimterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <module name="shleld-ratelimter-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.snowalker.ratelimiter.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.snowalker.ratelimiter.demo.Application" />
+      <option name="ACTIVE_PROFILES" value="qa" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.MAccBaseCoreAppTests.testAccBalanceCheckHandler" />
+      <item itemvalue="JUnit.TestAccPaymentSuccProtocol.testVoucherExchange" />
+      <item itemvalue="JUnit.TestAccPaymentSuccProtocol.testMsgProtocolFactory" />
+      <item itemvalue="Spring Boot.App" />
+      <item itemvalue="Spring Boot.App (1)" />
+      <item itemvalue="Spring Boot.App (2)" />
+      <item itemvalue="Spring Boot.MopmwebServiceApplication" />
+      <item itemvalue="Spring Boot.App (3)" />
+      <item itemvalue="Spring Boot.App (4)" />
+      <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="Spring Boot.RateLimterApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.RateLimterApplication" />
+        <item itemvalue="JUnit.TestAccPaymentSuccProtocol.testVoucherExchange" />
+        <item itemvalue="JUnit.TestAccPaymentSuccProtocol.testMsgProtocolFactory" />
+        <item itemvalue="Spring Boot.Application" />
+        <item itemvalue="JUnit.MAccBaseCoreAppTests.testAccBalanceCheckHandler" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.19398907" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SpringBeansView">
+    <option name="beanDetailsProportion" value="0.3" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="477cdd79-b834-4d18-9f54-0db75fc1fde8" name="Default Changelist" comment="" />
+      <created>1540572346057</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1540572346057</updated>
+      <workItem from="1540572350027" duration="7000" />
+      <workItem from="1540572387775" duration="8923000" />
+      <workItem from="1540610034057" duration="240000" />
+      <workItem from="1540652614548" duration="3995000" />
+      <workItem from="1540726404590" duration="1170000" />
+      <workItem from="1540729484048" duration="64000" />
+      <workItem from="1540776698240" duration="4554000" />
+      <workItem from="1540785158094" duration="16434000" />
+      <workItem from="1540861164306" duration="14150000" />
+      <workItem from="1540888647283" duration="393000" />
+      <workItem from="1540889065891" duration="9786000" />
+      <workItem from="1540947680924" duration="18338000" />
+      <workItem from="1541036970551" duration="14106000" />
+      <workItem from="1541120966800" duration="16208000" />
+      <workItem from="1541225355711" duration="2401000" />
+      <workItem from="1541396328808" duration="3901000" />
+      <workItem from="1541404660555" duration="4879000" />
+      <workItem from="1541466441635" duration="5458000" />
+      <workItem from="1541503182652" duration="1754000" />
+      <workItem from="1541554818827" duration="19375000" />
+      <workItem from="1541602000529" duration="1894000" />
+      <workItem from="1541639157191" duration="32967000" />
+      <workItem from="1541740352023" duration="30152000" />
+      <workItem from="1541833389028" duration="5352000" />
+      <workItem from="1541920873260" duration="2555000" />
+      <workItem from="1541984386752" duration="16580000" />
+      <workItem from="1542024011021" duration="867000" />
+      <workItem from="1542073724056" duration="1000000" />
+      <workItem from="1542075042578" duration="12469000" />
+      <workItem from="1542113737498" duration="5063000" />
+      <workItem from="1542252871317" duration="17324000" />
+      <workItem from="1542330774066" duration="2339000" />
+      <workItem from="1542594467180" duration="9585000" />
+      <workItem from="1542676191851" duration="12346000" />
+      <workItem from="1542770423568" duration="4296000" />
+      <workItem from="1542781697336" duration="129000" />
+      <workItem from="1542781876867" duration="13995000" />
+      <workItem from="1542848190290" duration="15230000" />
+      <workItem from="1542893582079" duration="427000" />
+      <workItem from="1542934655451" duration="6452000" />
+      <workItem from="1542958380747" duration="5699000" />
+      <workItem from="1543028892169" duration="10871000" />
+      <workItem from="1543194351072" duration="19449000" />
+      <workItem from="1543281042816" duration="18358000" />
+      <workItem from="1543316959384" duration="490000" />
+      <workItem from="1543370221970" duration="14034000" />
+      <workItem from="1543453719039" duration="18820000" />
+      <workItem from="1543539108140" duration="9565000" />
+      <workItem from="1543677936090" duration="271000" />
+      <workItem from="1543737667911" duration="3846000" />
+      <workItem from="1543761882006" duration="140000" />
+      <workItem from="1543762059901" duration="27000" />
+      <workItem from="1543799653349" duration="14163000" />
+      <workItem from="1543890955370" duration="9069000" />
+      <workItem from="1543971987771" duration="1849000" />
+      <workItem from="1543975534312" duration="6317000" />
+      <workItem from="1611826066533" duration="4665000" />
+    </task>
+    <task id="LOCAL-00001" summary="snowalker--添加特殊记账逻辑">
+      <created>1540814643793</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1540814643793</updated>
+    </task>
+    <task id="LOCAL-00002" summary="snowalker--删除多余常量">
+      <created>1541988161997</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1541988161997</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="MAccBaseCoreAppTests_testAccBalanceCheckHandler - 2018.12.03 at 10h 35m 03s.xml">
+      <configuration name="MAccBaseCoreAppTests.testAccBalanceCheckHandler" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestAccPaymentSuccProtocol_testVoucherExchange - 2018.12.05 at 10h 44m 39s.xml">
+      <configuration name="TestAccPaymentSuccProtocol.testVoucherExchange" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestAccPaymentSuccProtocol_testMsgProtocolFactory - 2018.12.05 at 10h 45m 10s.xml">
+      <configuration name="TestAccPaymentSuccProtocol.testMsgProtocolFactory" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestAccPaymentSuccProtocol_testVoucherExchange - 2018.12.05 at 10h 46m 24s.xml">
+      <configuration name="TestAccPaymentSuccProtocol.testVoucherExchange" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestAccPaymentSuccProtocol_testVoucherExchange - 2018.12.05 at 10h 46m 42s.xml">
+      <configuration name="TestAccPaymentSuccProtocol.testVoucherExchange" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestAccPaymentSuccProtocol_testVoucherExchange - 2018.12.05 at 10h 47m 10s.xml">
+      <configuration name="TestAccPaymentSuccProtocol.testVoucherExchange" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestAccPaymentSuccProtocol_testVoucherExchange - 2018.12.05 at 10h 47m 16s.xml">
+      <configuration name="TestAccPaymentSuccProtocol.testVoucherExchange" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestAccPaymentSuccProtocol_testVoucherExchange - 2018.12.05 at 10h 47m 36s.xml">
+      <configuration name="TestAccPaymentSuccProtocol.testVoucherExchange" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestAccPaymentSuccProtocol_testVoucherExchange - 2018.12.05 at 10h 48m 00s.xml">
+      <configuration name="TestAccPaymentSuccProtocol.testVoucherExchange" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestAccPaymentSuccProtocol_testVoucherExchange - 2018.12.05 at 10h 48m 13s.xml">
+      <configuration name="TestAccPaymentSuccProtocol.testVoucherExchange" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.md" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="snowalker--添加特殊记账逻辑" />
+    <MESSAGE value="snowalker--删除多余常量" />
+    <option name="LAST_COMMIT_MESSAGE" value="snowalker--删除多余常量" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="414" y="172" width="1099" height="696" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1611885915474">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="172" width="1099" height="696" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611885915474" />
+    <state x="690" y="222" key="FileChooserDialogImpl" timestamp="1611886473779">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="222" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1611886473779" />
+    <state width="1280" height="269" key="GridCell.Tab.0.bottom" timestamp="1611885929401">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1280" height="269" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611885929401" />
+    <state width="1280" height="269" key="GridCell.Tab.0.center" timestamp="1611885929401">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1280" height="269" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611885929401" />
+    <state width="1280" height="269" key="GridCell.Tab.0.left" timestamp="1611885929401">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1280" height="269" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611885929401" />
+    <state width="1280" height="269" key="GridCell.Tab.0.right" timestamp="1611885929401">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1280" height="269" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611885929401" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>permission:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring (maccbasecore-service)|Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>maccbasecore-service</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

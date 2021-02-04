@@ -6,27 +6,27 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="aliyun-acm-util" />
-        <module name="customer-api-service" />
-        <module name="maccbasecore-facade" />
-        <module name="maccbasecore-service" />
-        <module name="mfbizcore-facade" />
-        <module name="mfbizcore-service" />
-        <module name="mopmweb-facade" />
-        <module name="mopmweb-service" />
-        <module name="mprodbasecore-facade" />
-        <module name="mprodbasecore-service" />
-        <module name="msg-protocol" />
-        <module name="rctmq-spring" />
-        <module name="rctmq-spring-demo" />
-        <module name="sheild-conf-client-core" />
-        <module name="shield-config-manage-ui" />
-        <module name="shield-demo-project-single" />
         <module name="shield-message-transaction" />
+        <module name="customer-api-service" />
+        <module name="rctmq-spring-demo" />
+        <module name="aliyun-acm-util" />
+        <module name="rctmq-spring" />
         <module name="shield-notification-transaction" />
-        <module name="shield-ratelimiter-core" />
-        <module name="shield-tcc-transaction" />
+        <module name="mfbizcore-service" />
+        <module name="maccbasecore-facade" />
+        <module name="msg-protocol" />
+        <module name="mprodbasecore-facade" />
+        <module name="maccbasecore-service" />
+        <module name="mprodbasecore-service" />
+        <module name="shield-config-manage-ui" />
+        <module name="mfbizcore-facade" />
+        <module name="sheild-conf-client-core" />
         <module name="shleld-ratelimter-demo" />
+        <module name="shield-demo-project-single" />
+        <module name="shield-ratelimiter-core" />
+        <module name="mopmweb-service" />
+        <module name="shield-tcc-transaction" />
+        <module name="mopmweb-facade" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

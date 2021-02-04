@@ -37,4 +37,12 @@ public class TestController {
 
         return "正常请求";
     }
+
+    @ResponseBody
+    @RequestMapping("ratelimiter2")
+    @RateLimiter(key = "ratedemo:1.0.2", limit = 1, expire = 3, message = MESSAGE)
+    public String sendPatment2(HttpServletRequest request) throws Exception {
+        return "正常请求：sendPatment2";
+    }
+
 }

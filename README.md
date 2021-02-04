@@ -1,4 +1,5 @@
-# from https://mp.weixin.qq.com/s/Gzx1NeLtMcBEf6e_c940YA
+# from:  https://mp.weixin.qq.com/s/Gzx1NeLtMcBEf6e_c940YA
+# github: https://github.com/TaXueWWL/shield-ratelimter
 # shield-ratelimiter
 > 基于Redis的分布式限流工具包
 
